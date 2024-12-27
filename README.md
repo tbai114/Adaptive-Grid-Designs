@@ -1,18 +1,18 @@
-#Adaptive Grid Designs
+# Adaptive Grid Designs
 This repository provides Python codes and data set for the paper ***Adaptive Grid Designs for Classifying Monotonic Binary Deterministic Computer Simulations***, submitted to JMLR.
 
-##Dependencies
-###Python Packages:
+## Dependencies
+### Python Packages:
 
 * rpy2
 * skactiveml
 
-###R Packages
+### R Packages
 
 * SLHD
 * mined
 
-###Other dependencies:
+### Other dependencies:
 
 * active_learning.py
 * partitioned_gp.py
@@ -22,8 +22,8 @@ These scripts are available on  [Lee et al. (2023)](https://github.com/cheolheil
 
 
 
-##Codes
-###AdaptiveGridDesign.py
+## Codes
+### AdaptiveGridDesign.py
 This script provides the main function of the paper, including the following:
 
 * Python code for SG, SI, GG, GI, AG, AI, ALE, CAL, and AMC methods with detailed comments.
@@ -31,7 +31,7 @@ This script provides the main function of the paper, including the following:
 * Python code for PALC method with detailed comments. 
 * Python code for simulations in Section 4.1, including the normal simulation and extreme cases
 
-###crash.py
+### crash.py
 This script provides the results of Section 4.2, the road crash simulation:
 
 * Python code for MC, AMC, SG, SI,ALE, GG, GI, AG, and AI methods suitable for ordinal variables
@@ -46,7 +46,7 @@ This script provides the results of Section 5, the ice-breaking dynamic:
 * Needs fgd.csv
 
 
-###crashData.csv
+### crashData.csv
 
   * Data set for road crash simulation with 44 crash occasions indexed by *caseID*
   * *eoff*: the off-road glance duration
