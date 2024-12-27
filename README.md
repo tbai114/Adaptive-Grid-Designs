@@ -7,12 +7,12 @@ This repository provides Python codes and data set for the paper ***Adaptive Gri
 * rpy2
 * skactiveml
 
-### R Packages
+### R Packages for OLH and MED:
 
 * SLHD
 * mined
 
-### Other dependencies:
+### Other dependencies for PALC:
 
 * active_learning.py
 * partitioned_gp.py
